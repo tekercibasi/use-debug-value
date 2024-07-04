@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import TodosApp from './components/TodosApp'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TodosApp/>
+        <Navigation/>      
       </header>
     </div>
   );
